@@ -1,0 +1,13 @@
+apiVersion: content.hobbyfarm.io/v1alpha1
+kind: RepositoryIndex
+metadata:
+  maintainer: Jamie Smith
+  description: Sample repository with some sample content!
+  published: "2024-03-06T17:52:38Z"
+  tags:
+  - content
+  - sample
+  additionalPropeties:
+    foo: bar
+scenarios: []
+courses: []
