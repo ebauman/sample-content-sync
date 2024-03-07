@@ -1,0 +1,23 @@
+apiVersion: content.hobbyfarm.io/v1alpha1
+kind: Scenario
+tags:
+- sample
+- content
+categories:
+- sample
+- content
+virtualMachines:
+- set0-vm0: rhel-9
+  set0-vm1: rhel-9
+- set1-vm0: rhel-8
+  set1-vm1: rhel-8
+keepaliveDuration: 1h
+pauseDuration: 1h
+pauseable: false
+contentType: file
+contentEncoding: none
+steps:
+- title: Step 1
+  url: https://ebauman.github.io/ebauman/scenarios/sample-scenario/v0.0.1/step-1.md
+- title: Step 2
+  url: https://ebauman.github.io/ebauman/scenarios/sample-scenario/v0.0.1/step-2.md
