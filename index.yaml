@@ -9,5 +9,12 @@ metadata:
   - sample
   additionalPropeties:
     foo: bar
-scenarios: []
+scenarios:
+- name: sample-scenario
+  description: This is a test scenario!
+  versions:
+  - version: v0.0.1
+    url: https://ebauman.github.io/sample-content-sync/scenarios/sample-scenario/v0.0.1
+  - version: v0.0.2
+    url: https://ebauman.github.io/sample-content-sync/scenarios/sample-scenario/v0.0.2
 courses: []
